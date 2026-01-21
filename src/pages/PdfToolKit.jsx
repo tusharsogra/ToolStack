@@ -55,7 +55,7 @@ export default function PdfToolkit() {
   };
 
   return (
-    <div className="min-h-screen pt-25 bg-black text-white p-8">
+    <div className="min-h-screen pt-30 bg-black text-white p-8">
       <h1 className="text-3xl font-bold text-center mb-10">
         PDF Toolkit
       </h1>
@@ -69,21 +69,24 @@ export default function PdfToolkit() {
             multiple
             accept="image/*"
             onChange={(e) => setImages([...e.target.files])}
+            className="border rounded-2xl cursor-pointer p-2 w-3xs  bg-white hover:bg-gray-300 transition text-black h-10" 
           />
-          <button onClick={convertImageToPDF} className="btn bg-white text-black rounded-2xl cursor-pointer h-10 p-2 hover:bg-gray-300 ">
+          <button onClick={convertImageToPDF} className="btn bg-white m-3 text-black rounded-2xl cursor-pointer h-10 p-2 hover:bg-gray-300 ">
             Convert & Download
           </button>
         </ToolCard>
 
         {/* MERGE PDF */}
-        <ToolCard title="Merge PDFs" desc="Combine multiple PDF files into one">
+        <ToolCard  title="Merge PDFs" desc="Combine multiple PDF files into one">
           <input
             type="file"
             multiple
             accept="application/pdf"
-            onChange={(e) => setPdfFiles([...e.target.files])} 
+            onChange={(e) => setPdfFiles([...e.target.files])}
+            className="border rounded-2xl cursor-pointer p-2 w-3xs  bg-white hover:bg-gray-300 transition text-black h-10" 
+           
           />
-          <button onClick={mergePDFs} className="btn bg-white text-black rounded-2xl cursor-pointer h-10 p-2 hover:bg-gray-300 ">
+          <button onClick={mergePDFs} className="btn bg-white m-3 text-black rounded-2xl cursor-pointer h-10 p-2 hover:bg-gray-300 ">
             Merge & Download
           </button>
         </ToolCard>
@@ -94,8 +97,9 @@ export default function PdfToolkit() {
             type="file"
             accept="application/pdf"
             onChange={(e) => setSplitFile(e.target.files[0])}
+            className="border rounded-2xl cursor-pointer p-2 w-3xs  bg-white hover:bg-gray-300 transition text-black h-10" 
           />
-          <button onClick={splitPDF} className="btn bg-white text-black rounded-2xl cursor-pointer h-10 p-2 hover:bg-gray-300 ">
+          <button onClick={splitPDF} className="btn bg-white m-3 text-black rounded-2xl cursor-pointer h-10 p-2 hover:bg-gray-300 ">
             Split & Download
           </button>
         </ToolCard>

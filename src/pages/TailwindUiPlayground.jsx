@@ -211,7 +211,7 @@ export default function TailwindUIPlayground() {
   };
 
   return (
-    <div className="min-h-screen py-10 bg-linear-to-br from-slate-950 via-slate-900 to-slate-950">
+    <div className="min-h-screen py-25  bg-linear-to-br from-slate-950 via-slate-900 to-slate-950">
       {/* Fixed Navigation */}
       
 
