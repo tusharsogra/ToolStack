@@ -1,0 +1,13 @@
+@import "tailwindcss";
+body,html,#root{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    background-color: black;
+    color: white;
+}
+.perspective {
+  perspective: 1200px;
+}
