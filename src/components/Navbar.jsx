@@ -26,7 +26,7 @@ const navigate=useNavigate();
 
         {/* Logo */}
         <h1 className="text-xl font-bold tracking-wide">
-          Tool<span className="text-gray-400">Stack</span>
+          &lt;Tool<span className="text-orange-500">Stack/&gt; </span>
         </h1>
 
         {/* Desktop Links */}

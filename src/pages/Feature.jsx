@@ -31,7 +31,7 @@ const Feature = () => {
       <div className="max-w-7xl mx-auto px-6">
 
         <h2 className="text-3xl md:text-4xl font-bold text-center">
-          Powerful <span className="text-gray-400">Features</span>
+          Powerful <span className="text-orange-500">Features</span>
         </h2>
 
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -11,7 +11,7 @@ const Home = () => {
         <div className="text-center max-w-4xl animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
             One Platform. <br />
-            <span className="text-gray-400">All Your Daily Tools</span>
+            <span className="text-orange-500">All Your Daily Tools</span>
           </h1>
 
           <p className="mt-6 text-gray-400 text-lg">
@@ -73,7 +73,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-3xl md:text-4xl font-bold text-center">
-            Why Choose <span className="text-gray-400">Our Tools</span>
+            Why Choose <span className="text-orange-500">Our Tools</span>
           </h2>
 
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -102,7 +102,7 @@ const Home = () => {
         <div className="max-w-6xl mx-auto px-6">
 
           <h2 className="text-3xl md:text-4xl font-bold text-center">
-            Simple. <span className="text-gray-400">Fast. Secure.</span>
+            Simple. <span className="text-orange-500">Fast. Secure.</span>
           </h2>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -128,7 +128,7 @@ const Home = () => {
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Ready to Boost <span className="text-gray-400">Your Productivity?</span>
+            Ready to Boost <span className="text-orange-500">Your Productivity?</span>
           </h2>
 
           <p className="mt-4 text-gray-400">
